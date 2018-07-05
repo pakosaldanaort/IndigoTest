@@ -6,85 +6,66 @@ El siguiente proyecto contiene los algoritmos del producto mas grande en una ser
 
 ## Intrucciones
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+A continuacion se detallan los pasos para clonar el proyecto en el IDE Netbeans
+1. Abrir el IDE, dirigirse a la barra de opciones en el apartado Team > Git > Clone.
+  ![paso 1](https://raw.githubusercontent.com/pakosaldanaort/IndigoTest/master/images/Imagen%201.jpg)
+2. En la ventana que se abrio, ingresamo el link del repositorio y damos Next.
+  ![paso 1](https://raw.githubusercontent.com/pakosaldanaort/IndigoTest/master/images/Imagen%202.jpg)
+3. Listo tendremos el proyecto localmente.
 
-### Prerequisites
+      ![paso 1](https://raw.githubusercontent.com/pakosaldanaort/IndigoTest/master/images/Imagen%203.jpg)
 
-What things you need to install the software and how to install them
+  
 
-```
-Give examples
-```
+### Requisitos
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Se necesitara lo siguiente para ejecutar el proyecto
 
 ```
-until finished
+* Netbeans 8.0 or later
+* JDK 1.8 or later
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Diagramas de Clase
 
-## Running the tests
+| IndigoTest|
+| ------------- |
+| + getLargestProduct() : void | 
+| + getPalindromeProduct() : void  | 
 
-Explain how to run the automated tests for this system
+|Operations|
+| ------------- |
+| + maxProduct( int n, int k, int[] digitsNumber) : int | 
+| + palindromeProduct(int n) : int  |
+| + stringToNumbers(String numbers) : int[]  |
+| + numberToArray(String number) : int[]  |
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+|OperationsTest|
+| ------------- |
+| + testMaxProduct() : void | 
+| + testTalindromeProduct() : void  |
+| + testStringToNumbers() : void  |
+| + testNumberToArray() : void  |
 
-```
-Give an example
-```
 
-### And coding style tests
 
-Explain what these tests test and why
+## Pruebas Unitarias
+  A continuacion se demuestra como correr las pruebas unitarias con la herramienta JUnit integrado en el IDE Netbeans
+  1. En la estructura del proyecto ubicarnos en Test Package > indigotest > OperationsTest. java y dar click derecho en la opcion Test File.
+  
+  
+      ![paso 1](https://raw.githubusercontent.com/pakosaldanaort/IndigoTest/master/images/Imagen%204.jpg)
+      
+  2. Se muestra un cuadro de dialogo en la parte inferior derecha y damos click en el hipervinculo "Open Test Results Window" y en dicha ventana se mostrara el resultado de las pruebas unitarias.
+  
+      ![paso 1](https://raw.githubusercontent.com/pakosaldanaort/IndigoTest/master/images/Imagen%205.jpg)
+  
 
-```
-Give an example
-```
 
-## Deployment
+## Autor
 
-Add additional notes about how to deploy this on a live system
+* **Jose Francisco Saldaña Ortega**
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
